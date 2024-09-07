@@ -30,7 +30,7 @@ function pesquisar() {
             <div class="item-resultado">
                 <img class="capas" aling="left" src=${dado.imagem}>
                 <h2>
-                    <a href="#" target="_blank">${dado.titulo}</a>
+                    ${dado.titulo}
                 </h2>
                 <p class="descricao-meta">${dado.descricao}</p>
                 <a href=${dado.link} target="_blank">Onde assistir</a>
